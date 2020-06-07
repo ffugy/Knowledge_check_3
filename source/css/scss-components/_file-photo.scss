@@ -1,0 +1,30 @@
+@import '_mixin';
+
+.file-photo {
+    display: flex;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 170px 0 110px;
+    flex-wrap: wrap;
+}
+
+.file {
+    display: flex;
+    max-width: 390px;
+    padding-right: 75px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h3 {
+    @include title-h3;
+    padding-bottom: 20px;
+}
+
+.image-description {
+    padding-left: 30px;
+}
+
+.image-description p {
+    @include mini-paragraph;
+}

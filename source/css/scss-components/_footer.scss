@@ -1,0 +1,11 @@
+@import '_mixin';
+
+footer {
+    height: 45px;
+    background: #43a06d;
+}
+
+footer p {
+    @include paragraph;
+    text-align: center;
+}
